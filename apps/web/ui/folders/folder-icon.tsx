@@ -21,7 +21,7 @@ const folderIconsMap: Record<
     borderColor: "border-indigo-200",
     bgColor: "bg-indigo-100",
     icon: FolderShield,
-    defaultIconClassName: "text-[#3730A3]",
+    defaultIconClassName: "text-indigo-800",
   },
   write: {
     borderColor: "border-blue-200",
@@ -33,19 +33,19 @@ const folderIconsMap: Record<
     borderColor: "border-orange-200",
     bgColor: "bg-orange-100",
     icon: FolderLock,
-    defaultIconClassName: "text-[#9A3412]",
+    defaultIconClassName: "text-orange-800",
   },
   new: {
     borderColor: "border-neutral-200",
     bgColor: "bg-neutral-100",
     icon: FolderPlus,
-    defaultIconClassName: "text-[#1F2937]",
+    defaultIconClassName: "text-gray-800",
   },
   unsorted: {
     borderColor: "border-green-200",
     bgColor: "bg-green-100",
     icon: FolderBookmark,
-    defaultIconClassName: "text-[#166534]",
+    defaultIconClassName: "text-green-800",
   },
 } as const;
 
